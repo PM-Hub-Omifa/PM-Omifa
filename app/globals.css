@@ -1,0 +1,16 @@
+
+*{box-sizing:border-box}body{margin:0;background:#020617;color:#e5e7eb;font-family:Inter,system-ui,Segoe UI,Arial,sans-serif}
+.header{height:72px;padding:16px 24px;background:#0f172a;border-bottom:1px solid #1e293b;display:flex;align-items:center;justify-content:space-between}
+.layout{display:grid;grid-template-columns:280px 1fr;min-height:calc(100vh - 72px)}
+.sidebar{padding:16px;border-right:1px solid #1e293b}.main{padding:20px}
+.card{background:#0f172a;border:1px solid #1e293b;border-radius:16px;padding:16px;margin-bottom:16px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px}
+.stat{font-size:32px;font-weight:900}.muted{color:#94a3b8}
+.nav button,.btn{width:100%;border:0;border-radius:12px;padding:11px 12px;margin-bottom:8px;background:#1e293b;color:#e5e7eb;font-weight:800;cursor:pointer;text-align:left}
+.btn-primary{background:#38bdf8;color:#00111a;text-align:center}
+.pill{display:inline-block;padding:5px 9px;border-radius:999px;background:#1e293b;color:#cbd5e1;font-size:12px;margin:2px}
+.pill-red{background:#7f1d1d;color:#fecaca}.pill-green{background:#064e3b;color:#bbf7d0}
+table{width:100%;border-collapse:collapse}th,td{padding:10px;border-bottom:1px solid #1e293b;font-size:13px;text-align:left}th{color:#93c5fd}
+.calendar{display:grid;grid-template-columns:repeat(7,1fr);gap:8px}.day{min-height:92px;border:1px solid #334155;border-radius:12px;background:#020617;padding:8px}
+.day-item{font-size:11px;background:#1e293b;border-radius:7px;padding:4px 6px;margin-top:4px}
+@media(max-width:900px){.layout{grid-template-columns:1fr}.calendar{grid-template-columns:1fr}}
