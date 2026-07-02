@@ -1,6 +1,6 @@
 {
   "name": "pm-omifa",
-  "version": "1.2.0",
+  "version": "2.0.0-preview",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -10,8 +10,7 @@
   "dependencies": {
     "next": "latest",
     "react": "latest",
-    "react-dom": "latest",
-    "@supabase/supabase-js": "latest"
+    "react-dom": "latest"
   },
   "devDependencies": {
     "typescript": "latest",
