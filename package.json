@@ -1,6 +1,6 @@
 {
   "name": "pm-omifa",
-  "version": "2.2.0-ui-match",
+  "version": "2.3.0-functional",
   "private": true,
   "scripts": {
     "dev": "next dev",
