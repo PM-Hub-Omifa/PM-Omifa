@@ -1,3 +1,3 @@
-# PM Omifa v2.0 Preview
+# PM Omifa v2.2 UI Match
 
-Copiază conținutul peste repo, Commit + Push. Include Dashboard nou, Gantt profesional, Plan Viewer, Site Diary, AI Vision, Material Tracker.
+Copiază peste repo, Commit, Push.
